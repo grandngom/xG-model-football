@@ -20,12 +20,14 @@ Two models are implemented:
 
 ## 📈 Results
 
-| Model    | Brier Score| Log Loss| AUC   |
-|----------|------------|----------|------|
-| Baseline | 0.098      | 0.332    | 0.72 |
-| Improved | 0.084      | 0.296    | 0.78 |
+| Model | Brier Score | Log Loss | AUC |
+|------|------------|----------|-----|
+| Baseline | 0.098 | 0.332 | 0.724 |
+| Improved | 0.084 | 0.296 | 0.782 |
+| Interactions | 0.084 | 0.294 | 0.787 |
 
 The improved model shows better predictive performance, demonstrating the value of contextual features beyond distance and angle.
+Adding interaction terms slightly improves the model, suggesting that nonlinear relationships between shot distance, angle and shot context provide additional predictive information.
 
 ---
 
