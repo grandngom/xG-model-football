@@ -31,18 +31,6 @@ Adding interaction terms slightly improves the model, suggesting that nonlinear 
 
 ---
 
-## 📈 Results
-
-| Model | Brier Score | Log Loss | AUC |
-|---|---|---|---|
-| Baseline | 0.098 | 0.332 | 0.724 |
-| Improved | 0.084 | 0.296 | 0.782 |
-| Interactions | 0.084 | 0.294 | 0.787 |
-
-The interaction-based model slightly improves predictive performance.
-
----
-
 ## 📊 Bootstrap validation
 
 A bootstrap procedure with 1000 resamples was used to estimate the stability of the interaction-based model.
@@ -55,9 +43,6 @@ A bootstrap procedure with 1000 resamples was used to estimate the stability of 
 
 The relatively narrow confidence intervals suggest that the model is statistically stable across resampled datasets.
 
----
-
-## 🔥 Visualization
 ---
 
 ## 🔥 Visualization
