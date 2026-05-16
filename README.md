@@ -66,9 +66,10 @@ This heatmap shows average xG per zone on the pitch.
 
 ## 🚀 Future Work
 
-- Add confidence intervals using bootstrap
 - Incorporate defensive pressure (StatsBomb 360)
-- Explore probabilistic models (mixture models, Bayesian approaches)
+- Explore probabilistic models (Bayesian approaches, mixture models)
+- Compare calibration curves with StatsBomb xG
+- Add player-level and team-level analysis
 
   ---
   
