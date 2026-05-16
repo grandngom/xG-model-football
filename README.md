@@ -2,6 +2,17 @@
 
 Expected Goals (xG) model built using StatsBomb open data.
 
+Developed and validated an expected goals (xG) model using probabilistic machine learning and statistical reliability analysis.
+
+The project includes:
+- logistic regression models,
+- interaction-based feature engineering,
+- bootstrap confidence intervals,
+- probabilistic performance evaluation,
+- comparison with StatsBomb xG.
+
+---
+
 ## 📊 Project Overview
 
 This project aims to model the probability that a shot results in a goal using:
