@@ -58,6 +58,14 @@ The relatively narrow confidence intervals suggest that the model is statistical
 
 ## 🔥 Visualization
 
+### ROC Curve comparison
+
+![ROC Curve](roc_curve_xg.png)
+
+Receiver Operating Characteristic (ROC) curves comparing the predictive performance of the baseline, improved and interaction-based xG models.
+
+The interaction-based model achieves the highest AUC score, demonstrating improved discrimination capability between goals and non-goals.
+
 ### Heatmap of expected goals
 
 ![Heatmap](shot_heatmap_xg.png)
